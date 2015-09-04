@@ -1,0 +1,24 @@
+syntax enable
+set background=light
+colorscheme solarized
+
+set relativenumber
+
+" Toggle solarized theme
+call togglebg#map("<F5>")
+
+" All yanking/deleting into system clipboard
+set clipboard=unnamed
+
+" automatically rebalance windows on vim resize
+autocmd VimResized * :wincmd =
+
+" zoom a vim pane, <C-w>= to re-balance
+nnoremap <leader>- :wincmd _<cr>:wincmd \|<cr>
+nnoremap <leader>= :wincmd =<cr>
+
+" Faster vim
+set timeoutlen=1000 ttimeoutlen=0
+
+" Highlight current line
+set cursorline
