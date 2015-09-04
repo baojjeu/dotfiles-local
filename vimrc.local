@@ -22,3 +22,6 @@ set timeoutlen=1000 ttimeoutlen=0
 
 " Highlight current line
 set cursorline
+
+" jj for esc
+inoremap jj <ESC>
