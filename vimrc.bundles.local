@@ -7,3 +7,4 @@ Plug 'djoshea/vim-autoread'
 " http://vimcasts.org/blog/2010/12/a-text-object-for-ruby-blocks/
 Plug 'kana/vim-textobj-user'
 Plug 'nelstrom/vim-textobj-rubyblock'
+Plug 'scrooloose/nerdtree'

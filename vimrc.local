@@ -25,3 +25,5 @@ set cursorline
 
 " jj for esc
 inoremap jj <ESC>
+
+map <C-n> :NERDTreeToggle<CR>
